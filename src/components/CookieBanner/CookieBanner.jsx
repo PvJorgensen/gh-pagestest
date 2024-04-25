@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './cookie.module.scss'
+import ReactGA from "react-ga4";
 
 export const CookieBanner = () => {
     const [consent, setConsent] = useState(false)
